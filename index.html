@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toko Kue Avana — Bolu, Brownies &amp; Kue Kuningan</title>
+<meta name="description" content="Toko Kue Avana, Kuningan — bolu, brownies & kue. Cabang Martadinata: Jl. Re. Martadinata No.113, Kuningan. WA 0821-2674-8339. Rating 4.4 (menukuliner).">
+<style>
+:root{--cream:#fdf6ee;--cream2:#f7e9d8;--brown:#5c3a21;--brown2:#3e2716;--pink:#f4a7b9;--pink2:#e87e9b;--card:#fff;--ink:#33241c;--muted:#7a6a5d;--line:#eeddcb}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--cream);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;color:var(--brown)}
+.wrap{max-width:680px;margin:0 auto;padding:0 20px}
+.site-header{position:sticky;top:0;z-index:50;background:var(--brown2);border-bottom:3px solid var(--pink)}
+.site-header .bar{max-width:680px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{color:#fff;text-decoration:none;font-family:Georgia,serif;font-size:1.05rem;line-height:1.2}
+.brand small{display:block;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--pink)}
+.btn{display:inline-block;background:var(--pink2);color:#fff;text-decoration:none;font-weight:700;padding:11px 18px;border-radius:999px;font-size:.92rem}
+.btn:hover{background:#d96a88}
+.btn-ghost{display:inline-block;border:2px solid var(--brown);color:var(--brown);text-decoration:none;font-weight:700;padding:10px 18px;border-radius:999px;font-size:.92rem}
+.hero{background:linear-gradient(160deg,var(--brown) 0%,var(--brown2) 100%);color:#fff;padding:52px 0 44px}
+.hero .eyebrow{color:var(--pink);font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;font-weight:700}
+.hero h1{color:#fff;font-size:2rem;line-height:1.15;margin:10px 0 12px}
+.hero p{color:#f3e4d4;max-width:520px}
+.hero .cta-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.hero .btn-ghost{border-color:#fff;color:#fff}
+.badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}
+.badges span{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;font-size:.8rem;padding:5px 11px;border-radius:999px}
+section{padding:40px 0}
+section h2{font-size:1.45rem;margin-bottom:6px}
+.lead{color:var(--muted);margin-bottom:18px}
+.note{font-size:.82rem;color:var(--muted);margin-top:14px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.card h3{font-size:1.05rem;margin-bottom:4px}
+.card p{font-size:.92rem;color:var(--muted)}
+.card .price{color:var(--brown);font-weight:700;font-size:1rem;margin-top:8px}
+.tag{display:inline-block;background:#fde8ee;color:#9e2b4a;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:3px 9px;border-radius:999px;margin-bottom:8px}
+.branch{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:12px}
+.branch h3{font-size:1.05rem;margin-bottom:4px}
+.branch p{font-size:.92rem;color:var(--muted)}
+.branch .wa{font-weight:700;color:var(--brown);font-size:.92rem;margin-top:6px}
+.branch .wa a{color:var(--brown)}
+.steps{counter-reset:s}
+.step{display:flex;gap:14px;margin-bottom:16px}
+.step .n{flex:none;width:34px;height:34px;border-radius:50%;background:var(--brown);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700}
+.step h3{font-size:1.05rem}
+.step p{font-size:.92rem;color:var(--muted)}
+.info{background:var(--brown);color:#fff;border-radius:16px;padding:26px 22px}
+.info h2{color:#fff}
+.info p{color:#f3e4d4}
+.info .row{display:flex;justify-content:space-between;gap:12px;border-top:1px solid rgba(255,255,255,.18);padding:12px 0;font-size:.95rem}
+.info .row span{flex:none}
+.info .row b{color:var(--pink);font-weight:600;text-align:right}
+.info a{color:#fff}
+.cta-final{text-align:center}
+.cta-final h2{margin-bottom:8px}
+.cta-final p{color:var(--muted);margin-bottom:20px}
+footer{background:var(--brown2);color:#c9b6a6;font-size:.8rem;padding:22px 0;text-align:center}
+footer a{color:#f3e4d4}
+@media(max-width:520px){.grid{grid-template-columns:1fr}.hero h1{font-size:1.65rem}}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="bar">
+<a class="brand" href="#">Toko Kue Avana<small>Bolu &middot; Brownies &middot; Kue Kuningan</small></a>
+<a class="btn" href="https://wa.me/6282126748339?text=Halo%20Toko%20Kue%20Avana%2C%20saya%20mau%20pesan%20kue.">Chat WA</a>
+</div></header>
+
+<div class="hero"><div class="wrap">
+<div class="eyebrow">Toko Kue &middot; Kuningan &middot; Rating 4.4 (menukuliner)</div>
+<h1>Bolu, Brownies &amp; Kue untuk Setiap Momen.</h1>
+<p>Toko Kue Avana di Kuningan — bolu kukus, bolu gulung, brownies lumer, sampai lapis legit. Cocok untuk hadiah, acara keluarga, dan teman ngopi di rumah.</p>
+<div class="cta-row">
+<a class="btn" href="https://wa.me/6282126748339?text=Halo%20Toko%20Kue%20Avana%2C%20saya%20mau%20pesan%20kue.">Pesan via WhatsApp</a>
+<a class="btn-ghost" href="#katalog">Lihat Katalog</a>
+</div>
+<div class="badges"><span>Kisaran Rp15.000&ndash;Rp95.000</span><span>4 cabang di Kuningan</span><span>Rating 4.4 (menukuliner)</span></div>
+</div></div>
+
+<section id="katalog"><div class="wrap">
+<h2>Katalog Kue</h2>
+<p class="lead">Pilihan kue favorit pelanggan Toko Kue Avana. Stok dan harga per cabang bisa berbeda — tanya dulu via WhatsApp sebelum datang.</p>
+<div class="grid">
+<div class="card"><span class="tag">Bolu</span><h3>Bolu Talas Kukus</h3><p>Bolu kukus lembut dengan rasa talas.</p><p class="price">Harga via WA</p></div>
+<div class="card"><span class="tag">Bolu</span><h3>Bolu Gulung</h3><p>Bolu gulung klasik untuk teman ngopi.</p><p class="price">Harga via WA</p></div>
+<div class="card"><span class="tag">Kue</span><h3>Black Forest Mini</h3><p>Black forest ukuran mini, pas untuk hadiah.</p><p class="price">Harga via WA</p></div>
+<div class="card"><span class="tag">Lapis</span><h3>Lapis Legit Keju</h3><p>Lapis legit dengan taburan keju.</p><p class="price">Harga via WA</p></div>
+<div class="card"><span class="tag">Bolu</span><h3>Bolu Pisang</h3><p>Bolu pisang, manisnya pas.</p><p class="price">Harga via WA</p></div>
+<div class="card"><span class="tag">Brownies</span><h3>Brownies Lumer</h3><p>Brownies dengan lelehan cokelat.</p><p class="price">&plusmn;Rp40.000</p></div>
+<div class="card"><span class="tag">Lapis</span><h3>Lapis Surabaya</h3><p>Lapis Surabaya klasik, tiga lapis.</p><p class="price">&plusmn;Rp40.000</p></div>
+<div class="card"><span class="tag">Roti</span><h3>Bolen Pisang</h3><p>Bolen isi pisang, renyah di luar.</p><p class="price">&plusmn;Rp40.000</p></div>
+<div class="card"><span class="tag">Bolu</span><h3>Bolu Tape</h3><p>Bolu tape singkong, wangi dan lembut.</p><p class="price">&plusmn;Rp40.000</p></div>
+</div>
+<p class="note">Harga di atas dari menukuliner (cabang Cilimus). Harga dapat berbeda per cabang — konfirmasi via WhatsApp.</p>
+</div></section>
+
+<section style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)"><div class="wrap">
+<h2>Cabang Kami</h2>
+<p class="lead">Toko Kue Avana punya 4 cabang di Kuningan. Pilih yang paling dekat dengan Anda.</p>
+<div class="branch">
+<h3>Martadinata — Kuningan</h3>
+<p>Jl. Re. Martadinata No.113, Ciporang, Kec. Kuningan, Kabupaten Kuningan, Jawa Barat 45514</p>
+<p class="wa">WhatsApp: <a href="https://wa.me/6282126748339">0821-2674-8339</a></p>
+</div>
+<div class="branch">
+<h3>Cilimus</h3>
+<p>Jl. Raya Cilimus No.37, Cilimus</p>
+<p class="wa">Nomor WhatsApp cabang: [TIDAK KETEMU] — hubungi cabang Martadinata.</p>
+</div>
+<div class="branch">
+<h3>Veteran — Kuningan</h3>
+<p>Jl. Veteran No.57, Kuningan</p>
+<p class="wa">Nomor WhatsApp cabang: [TIDAK KETEMU] — hubungi cabang Martadinata.</p>
+</div>
+<div class="branch">
+<h3>Siliwangi — Kramatmulya</h3>
+<p>Jl. Siliwangi No.70, Kramatmulya</p>
+<p class="wa">Nomor WhatsApp cabang: [TIDAK KETEMU] — hubungi cabang Martadinata.</p>
+</div>
+</div></section>
+
+<section><div class="wrap">
+<h2>Cara Pesan, Gampang</h2>
+<div class="steps" style="margin-top:18px">
+<div class="step"><div class="n">1</div><div><h3>Chat WhatsApp</h3><p>Sebutkan kue yang mau dipesan dan cabangnya.</p></div></div>
+<div class="step"><div class="n">2</div><div><h3>Konfirmasi Harga &amp; Stok</h3><p>Kami infokan harga dan ketersediaan kue hari itu.</p></div></div>
+<div class="step"><div class="n">3</div><div><h3>Ambil di Cabang</h3><p>Datang ke cabang yang dipilih, atau tanyakan opsi antar via WhatsApp.</p></div></div>
+</div>
+</div></section>
+
+<section><div class="wrap">
+<div class="info">
+<h2>Lokasi &amp; Kontak</h2>
+<p style="margin-bottom:10px">Cabang utama: Martadinata, Kuningan.</p>
+<div class="row"><span>Alamat</span><b>Jl. Re. Martadinata No.113, Ciporang, Kec. Kuningan, Kabupaten Kuningan, Jawa Barat 45514</b></div>
+<div class="row"><span>Jam buka</span><b>Jam buka dikonfirmasi via WhatsApp</b></div>
+<div class="row"><span>WhatsApp</span><b><a href="https://wa.me/6282126748339">0821-2674-8339</a></b></div>
+<div class="row"><span>Rating</span><b>4.4 (menukuliner)</b></div>
+</div>
+</div></section>
+
+<section class="cta-final"><div class="wrap">
+<h2>Mau Pesan Kue Hari Ini?</h2>
+<p>Chat sekarang — sebutkan kue dan cabangnya, kami konfirmasi harga dan stoknya.</p>
+<a class="btn" href="https://wa.me/6282126748339?text=Halo%20Toko%20Kue%20Avana%2C%20saya%20mau%20pesan%20kue.">Chat WhatsApp 0821-2674-8339</a>
+</div></section>
+
+<footer><div class="wrap">
+Toko Kue Avana &middot; Bolu, Brownies &amp; Kue Kuningan &middot; Jl. Re. Martadinata No.113, Kuningan<br>
+<span style="opacity:.7">Demo contoh website untuk Toko Kue Avana — dibuat oleh Zenn. Harga per cabang &amp; ketersediaan dikonfirmasi via WhatsApp.</span>
+</div></footer>
+</body>
+</html>
